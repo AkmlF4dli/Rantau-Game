@@ -1,0 +1,84 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_changePostEffectSettings">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true" />
+                <ui:Label text="WORD_6004" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:Foldout text="WORD_0724" value="true" style="flex-direction: column;">
+           <ui:GroupBox>
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:RadioButton name="radioButton-post-effect-time1" group="1" class="toggle_foldout" />
+                    <ui:Foldout text="WORD_1088" name="post-effect-frame" class="foldout_transparent">
+                        <ui:VisualElement class="toggle_contents">
+                            <ex:InspectorItemUnit name="post_effect_frame_type_toggles" style="display: none;" />
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_1127" />
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <uie:IntegerField picking-mode="Ignore" name="flame" />
+                                    <ui:Label text="WORD_1088" display-tooltip-when-elided="true" />
+                                    <ui:Label text="WORD_1219" display-tooltip-when-elided="true" />
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:Toggle name="wait_toggle" />
+                                    <ui:Label text="WORD_0952" display-tooltip-when-elided="true" />
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ui:VisualElement style="flex-direction: row;" />
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:RadioButton name="radioButton-post-effect-time2" class="toggle_foldout" />
+                    <ui:Foldout text="WORD_6021" name="post-effect-map" class="foldout_transparent">
+                        <ui:VisualElement class="toggle_contents" />
+                    </ui:Foldout>
+                </ui:VisualElement>
+			</ui:GroupBox>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_6104" value="true">
+			<ui:GroupBox>
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:RadioButton name="radioButton-post-effect-color1" class="toggle_foldout" />
+                    <ui:Foldout text="WORD_6030" name="post-effect-mono" class="foldout_transparent">
+                        <ui:VisualElement class="toggle_contents">
+                            <ex:InspectorItemUnit name="post_effect_color_type_toggles" style="display: none;" />
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_6032" display-tooltip-when-elided="true" />
+                                <ex:ColorFieldBase name="colorPicker1" />
+                            </ex:InspectorItemUnit>
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:RadioButton name="radioButton-post-effect-color2" class="toggle_foldout" />
+                    <ui:Foldout text="WORD_6031" name="post-effect-gradient" class="foldout_transparent">
+                        <ex:InspectorItemUnit>
+                            <ui:Label text="WORD_6035" display-tooltip-when-elided="true" />
+                            <ui:VisualElement name="choices_dir_select" label="WORD_6035" value="Center" style="flex-direction: column;" />
+                        </ex:InspectorItemUnit>
+                        <ui:VisualElement class="toggle_contents">
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_6033" display-tooltip-when-elided="true" />
+                                <ex:ColorFieldBase name="colorPicker2" />
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_6034" display-tooltip-when-elided="true" />
+                                <ex:ColorFieldBase name="colorPicker3" />
+                            </ex:InspectorItemUnit>
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+			</ui:GroupBox>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_6105" value="true">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_6105" display-tooltip-when-elided="true" />
+                <ui:VisualElement name="choices_blend_select" label="WORD_6105" value="Center" style="flex-direction: column;" />
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

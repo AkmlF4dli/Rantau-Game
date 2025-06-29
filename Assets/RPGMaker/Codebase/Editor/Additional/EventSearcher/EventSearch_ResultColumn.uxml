@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement focusable="false" style="flex-direction: row; flex-grow: 1; height: auto;">
+        <ui:Button text="[W1491]表示" display-tooltip-when-elided="true" />
+        <ui:TextField picking-mode="Ignore" binding-path="EventType" name="EventType" readonly="true" focusable="false" multiline="true" style="width: 60px; overflow: visible;" />
+        <ui:TextField picking-mode="Ignore" binding-path="EventName" name="EventName" readonly="true" focusable="false" multiline="true" style="width: 150px; flex-grow: 0.5;" />
+        <ui:TextField picking-mode="Ignore" name="EventInformation" binding-path="EventInformaton" readonly="true" focusable="false" multiline="true" style="overflow: visible; width: 300px; flex-grow: 0.5;" />
+        <ui:TextField picking-mode="Ignore" binding-path="EventParam" name="EventParam" readonly="true" focusable="false" multiline="true" style="width: 300px; flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

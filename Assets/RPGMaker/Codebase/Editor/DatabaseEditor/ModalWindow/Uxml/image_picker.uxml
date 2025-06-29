@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/RPGMaker/Codebase/Editor/DatabaseEditor/ModalWindow/Uxml/image_picker.uss?fileID=7433441132597879392&amp;guid=e8d8b3f838ba4d579806d50fecb44d83&amp;type=3#image_picker" />
+    <ui:VisualElement name="root" style="max-width: none; max-height: none; height: auto; flex-grow: 1; flex-shrink: 1; min-width: auto; min-height: auto;">
+        <ui:TwoPaneSplitView fixed-pane-initial-dimension="256" orientation="Horizontal" fixed-pane-index="1" name="SplitView" style="height: auto; min-height: auto; min-width: auto; width: auto; flex-direction: column;">
+            <ui:VisualElement name="LeftPane" style="width: auto; height: auto; flex-basis: auto; flex-shrink: 1; min-width: 100px;">
+                <ui:GroupBox name="SliderContainer" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 4px; padding-right: 4px; padding-top: 2px; padding-bottom: 4px; flex-direction: row-reverse;">
+                    <ui:Slider picking-mode="Ignore" value="25" high-value="100" name="ScaleSlider" show-input-field="false" tabindex="3" style="width: 100px; flex-direction: row;" />
+                </ui:GroupBox>
+                <ui:ScrollView name="ScrollView" touch-scroll-type="Clamped" horizontal-scroller-visibility="Hidden" style="height: 100%; -unity-background-scale-mode: stretch-to-fill;">
+                    <ui:VisualElement name="ItemContainer" class="--vertical-layout --horizontal-layout" style="height: auto; flex-direction: row; flex-grow: 0; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; flex-shrink: 0;" />
+                </ui:ScrollView>
+            </ui:VisualElement>
+            <ui:VisualElement name="RightPane" style="width: initial; height: 100%; flex-shrink: 1; flex-grow: 1; align-items: center; justify-content: center; min-width: 100px; padding-left: 8px; padding-right: 8px; padding-top: 8px; padding-bottom: 8px;">
+                <ui:VisualElement name="PreviewImage" style="width: 100%; height: 256px; -unity-background-scale-mode: scale-to-fit; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+                <ui:Label display-tooltip-when-elided="true" name="PreviewName" style="padding-left: 0; padding-right: 0; font-size: 14px;" />
+                <ui:Label display-tooltip-when-elided="true" name="ImageSize" style="padding-left: 0; padding-right: 0; font-size: 14px;" />
+            </ui:VisualElement>
+        </ui:TwoPaneSplitView>
+        <ui:GroupBox name="ButtonGroup" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 4px; padding-right: 4px; padding-top: 8px; padding-bottom: 4px; flex-direction: row-reverse;">
+            <ui:Button text="WORD_1530" display-tooltip-when-elided="true" name="Common_Button_Cancel" tabindex="2" style="width: 120px; height: 20px;" />
+            <ui:Button text="WORD_0792" display-tooltip-when-elided="true" name="Common_Button_Ok" tabindex="1" style="width: 120px; height: 20px;" />
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

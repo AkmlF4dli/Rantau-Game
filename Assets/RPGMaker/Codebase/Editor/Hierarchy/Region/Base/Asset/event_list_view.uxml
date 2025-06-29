@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement class="system_window_systemwindow">
+        <ui:ScrollView name="hierarchy_scroll" style="overflow:hidden;flex-grow: 1;">
+            <ui:VisualElement name="event_list_area" style="flex-grow: 1;" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

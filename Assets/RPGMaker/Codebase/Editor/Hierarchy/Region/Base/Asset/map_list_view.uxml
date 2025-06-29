@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement class="system_window_systemwindow" >
+        <ui:VisualElement style="align-items: stretch; flex-direction: row; justify-content: flex-start; min-height: 32px;">
+            <ui:Button text="WORD_0012" name="EditMap" class="button AnalyticsTag__page_view__map_edit padded-element" />
+            <ui:Button text="WORD_0013" name="EditBattle" class="button AnalyticsTag__page_view__map_battle_edit padded-element" />
+            <ui:Button text="WORD_0014" name="EditEvent" class="button AnalyticsTag__page_view__map_event padded-element" />
+            <ui:Button text="menu" name="PopupArea" style="flex-grow: 1;" class="button" />
+        </ui:VisualElement>
+        <ui:ScrollView name="hierarchy_scroll" style="overflow:hidden;">
+            <ui:VisualElement name="map_list_area" style="flex-grow: 1;" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

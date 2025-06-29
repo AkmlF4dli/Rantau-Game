@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Toggle name="OptionalCommandCheck" value="false" text="WORD_6157" style="flex-wrap: nowrap; justify-content: flex-start; align-items: auto; top: 0; left: 0;" />
+    <ui:VisualElement style="flex-direction: row; justify-content: center; height: 510px;">
+        <ui:GroupBox text="WORD_6150" name="ButtonGroup0" style="background-color: rgb(100, 100, 100); width: 49%; padding-left: 5px;" />
+        <ui:GroupBox text="WORD_6150" name="ButtonGroup1" style="background-color: rgb(100, 100, 100); width: 49%; padding-left: 0; padding-right: 5px;" />
+    </ui:VisualElement>
+    <ui:GroupBox name="GroupBox" style="align-items: center; padding-left: 0; padding-top: 3px; padding-bottom: 10px;">
+        <ui:Button text="WORD_6161" display-tooltip-when-elided="true" name="ButtonDelete" style="align-items: auto; width: 70%;" />
+    </ui:GroupBox>
+    <ui:GroupBox name="EditGroup" style="background-color: rgb(100, 100, 100);">
+        <RPGMaker.Codebase.Editor.Common.View.InspectorItemUnit style="flex-direction: row;">
+            <ui:VisualElement style="flex-grow: 0; flex-direction: row; align-items: flex-start;">
+                <ui:Label text="WORD_6158" style="justify-content: flex-start; align-items: auto; -unity-text-align: upper-left;" />
+                <ui:VisualElement name="DropdownField0" style="flex-direction: row;" />
+            </ui:VisualElement>
+        </RPGMaker.Codebase.Editor.Common.View.InspectorItemUnit>
+        <RPGMaker.Codebase.Editor.Common.View.InspectorItemUnit style="flex-direction: row;">
+            <ui:VisualElement style="flex-grow: 0; flex-direction: row; align-items: flex-start; position: relative;">
+                <ui:Label text="WORD_6159" name="ButtonPopupFieldLabel" style="flex-direction: row;" />
+                <ui:VisualElement name="ButtonPopupField" style="flex-direction: row;" />
+            </ui:VisualElement>
+        </RPGMaker.Codebase.Editor.Common.View.InspectorItemUnit>
+        <ui:Button text="WORD_6160" display-tooltip-when-elided="true" name="ButtonAdd" />
+    </ui:GroupBox>
+</ui:UXML>

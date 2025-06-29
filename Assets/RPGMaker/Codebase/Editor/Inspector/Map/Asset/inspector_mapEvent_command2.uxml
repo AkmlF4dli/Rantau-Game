@@ -1,0 +1,57 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:GroupBox text="WORD_0287" name="GroupBox" style="height: 150px; width: 184px; background-color: rgb(100, 100, 100); position: absolute; top: 0; left: 0; text-shadow: 1px 1px 1px rgb(0, 0, 0); color: rgb(255, 255, 255); margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:Button text="WORD_0951" name="CharacterShowAnimation" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_0953" name="CharacterShowIcon" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_0858" name="Direction" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_0967" name="AnimationSetting" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_0972" name="CharacterImageSetting" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+    <ui:GroupBox text="WORD_1086" style="height: 49px; width: 184px; background-color: rgb(100, 100, 100); flex-direction: column; align-self: stretch; justify-content: flex-start; align-items: stretch; position: absolute; top: 529px; left: 0; color: rgb(255, 255, 255); text-shadow: 1px 1px 1px rgb(0, 0, 0); margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:Button text="WORD_1087" name="Timing" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+    <ui:GroupBox text="WORD_0992" style="height: 240px; width: 184px; background-color: rgb(100, 100, 100); text-shadow: 1px 1px 1px rgb(0, 0, 0); color: rgb(255, 255, 255); position: absolute; top: 155px; left: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:Button text="WORD_0993" name="PlaceMove" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1000" name="MoveRouteSetting" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1005" name="OneStepForward" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1006" name="OneStepBack" style="height: 23px;" />
+        <ui:Button text="WORD_2800" name="CustomMove" style="height: 26px;" />
+        <ui:Button text="WORD_2802" name="StepMove" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1547" name="ChangeMoveSpeed" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1548" name="ChangeMoveFrequency" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_0867" name="PassThrough" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+    <ui:GroupBox text="WORD_0112" style="height: 150px; width: 184px; background-color: rgb(100, 100, 100); position: absolute; top: 0; left: 200px; text-shadow: 1px 1px 0 rgb(0, 0, 0); color: rgb(255, 255, 255); margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:Button text="WORD_1116" name="ShowPicture" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px; -unity-text-align: middle-center; white-space: nowrap; text-overflow: clip;" />
+        <ui:Button text="WORD_1121" name="MovePicture" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1128" name="RoutePicture" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1130" name="ChangeColorPicture" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1137" name="ErasurePicture" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+    <ui:GroupBox text="WORD_1215" style="height: 168px; width: 184px; background-color: rgb(100, 100, 100); position: absolute; top: 155px; left: 200px; text-shadow: 1px 1px 1px rgb(0, 0, 0); color: rgb(255, 255, 255); margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:Button text="WORD_1216" name="ScreenFadeOut" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px; -unity-text-align: middle-center; white-space: nowrap; text-overflow: clip;" />
+        <ui:Button text="WORD_1217" name="ScreenFadeIn" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1218" name="ScreenChangeColor" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1220" name="ScreenFlash" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1222" name="ScreenShake" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1225" name="WeatherSetting" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+    <ui:GroupBox text="WORD_0929" style="height: 253px; width: 184px; background-color: rgb(100, 100, 100); position: absolute; top: 327px; left: 200px; color: rgb(255, 255, 255); text-shadow: 1px 1px 1px rgb(0, 0, 0); margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:Button text="WORD_0930" name="BGMPerformance" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px; -unity-text-align: middle-center; white-space: nowrap; text-overflow: clip;" />
+        <ui:Button text="WORD_0937" name="BGMFeadOut" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_0939" name="BGMSave" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_0940" name="BGMPlay" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_0941" name="BGSPerformance" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_0943" name="BGSFeadOut" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_0944" name="MEPerformance" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_0946" name="SEPerformance" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_0948" name="SEStop" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_0949" name="MoviePlay" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+    <ui:GroupBox text="WORD_0979" style="height: 50px; width: 184px; background-color: rgb(100, 100, 100); text-shadow: 1px 1px 1px rgb(0, 0, 0); color: rgb(255, 255, 255); position: absolute; top: 399px; left: -1px; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:Button text="WORD_1640" name="Jump" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+    <ui:GroupBox text="WORD_1007" style="height: 72px; width: 184px; background-color: rgb(100, 100, 100); text-shadow: 1px 1px 1px rgb(0, 0, 0); color: rgb(255, 255, 255); position: absolute; top: 453px; left: -1px; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:Button text="WORD_1008" name="Vehicle" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1010" name="RideVehicle" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+</ui:UXML>

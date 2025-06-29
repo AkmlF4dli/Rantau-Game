@@ -1,0 +1,46 @@
+#Rect:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+#ItemContainer.--vertical-layout #Wrapper.--selected #Name {
+    background-color: rgb(70, 96, 124);
+    color : white;
+}
+
+#ItemContainer.--horizontal-layout #Wrapper.--selected {
+    background-color: rgb(70, 96, 124);
+    color : white;
+}
+
+#ItemContainer.--vertical-layout #Wrapper {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#ItemContainer.--horizontal-layout #Wrapper {
+    flex-direction: row;
+    align-items: center;
+}
+
+#ItemContainer.--vertical-layout #Name {
+    -unity-text-align: middle-center;
+    width: 100%;
+}
+
+#ItemContainer.--horizontal-layout #Name {
+    -unity-text-align: middle-left;
+    width: auto;
+    margin-left: 8px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#ItemContainer.--vertical-layout #Thumbnail {
+    flex-grow: 1;
+    height: auto;
+}
+
+#ItemContainer.--horizontal-layout #Thumbnail {
+    flex-grow: 0;
+    height: 100%;
+}

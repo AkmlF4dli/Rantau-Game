@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/RPGMaker/Codebase/Editor/Common/Asset/Uxml/menu.uss?fileID=7433441132597879392&amp;guid=7d34e739cfad40cfb3fff899518f5422&amp;type=3#menu" />
+    <ui:VisualElement name="logo_area" class="logo" style="flex-direction: row; justify-content: flex-start; min-width: 100%;" />
+    <ui:VisualElement name="menu_area" class="menu_list" style="flex-direction: row; top: 3px;" />
+</ui:UXML>

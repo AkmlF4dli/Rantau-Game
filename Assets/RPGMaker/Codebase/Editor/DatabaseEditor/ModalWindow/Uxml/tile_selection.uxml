@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement class="two_rows_panel__">
+        <ui:VisualElement name="tile_list_container"/>
+        <ui:VisualElement class="button_pane">
+            <ui:Button text="WORD_0792" name="Common_Button_Ok"/>
+            <ui:Button text="WORD_1530" name="Common_Button_Cancel"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
