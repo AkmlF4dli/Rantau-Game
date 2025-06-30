@@ -1,0 +1,9 @@
+Library/*
+Logs/*
+obj/Debug/*
+Recordings/*
+Temp/*
+.vs/*
+UnityLockfile
+*.csproj
+*.cache

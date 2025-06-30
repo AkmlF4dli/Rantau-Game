@@ -1,0 +1,23 @@
+﻿#LeftPane #SliderContainer {
+    background-color: rgb(203, 203, 203);
+}
+
+#RightPane {
+    background-color: rgb(165, 165, 165);
+}
+
+#ButtonGroup {
+    background-color: rgb(156, 156, 156);
+}
+
+.dark #LeftPane #SliderContainer {
+    background-color: rgb(60, 60, 60);
+}
+
+.dark #RightPane {
+    background-color: rgb(42, 42, 42);
+}
+
+.dark #ButtonGroup {
+    background-color: rgb(47, 47, 47);
+}

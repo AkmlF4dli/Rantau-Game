@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-direction: row; height: 20px; align-items: center; flex-shrink: 0;">
+        <ui:Label text="No." display-tooltip-when-elided="true" style="flex-direction: row; width: 60px;" />
+        <ui:Label text="Name" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+    <ui:ListView focusable="true" name="ListView_Values" binding-path="mValues" fixed-item-height="20" show-foldout-header="false" show-add-remove-footer="false" show-bound-collection-size="false" show-border="true" header-title="Select" />
+    <ui:VisualElement style="flex-direction: row; align-items: stretch; height: 20px; flex-shrink: 0;">
+        <ui:Button text="Cancel" display-tooltip-when-elided="true" name="Button_Cancel" style="width: 100px;" />
+        <ui:Button text="OK" display-tooltip-when-elided="true" name="Button_OK" style="width: 100px;" />
+    </ui:VisualElement>
+</ui:UXML>

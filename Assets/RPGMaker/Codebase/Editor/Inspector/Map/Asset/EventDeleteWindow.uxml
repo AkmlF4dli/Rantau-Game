@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:GroupBox>
+        <ui:Button text="WORD_5036" display-tooltip-when-elided="true" name="DeleteButton" />
+    </ui:GroupBox>
+    <ui:ListView focusable="true" name="DeleteList" show-border="true" selection-type="None" show-alternating-row-backgrounds="ContentOnly" />
+</ui:UXML>

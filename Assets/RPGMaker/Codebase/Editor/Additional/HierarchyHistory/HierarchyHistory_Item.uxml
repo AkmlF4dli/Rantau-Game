@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="background" focusable="true" style="flex-direction: row; flex-grow: 1; height: auto;">
+        <ui:Button text="WORD_1491" display-tooltip-when-elided="true" />
+        <ui:Toggle binding-path="locked" name="locked" />
+        <ui:TextField picking-mode="Ignore" binding-path="key" name="key" readonly="true" focusable="false" multiline="true" style="width: 60px; overflow: visible; display: none;" />
+        <ui:TextField picking-mode="Ignore" binding-path="wname" name="wname" readonly="true" focusable="false" multiline="true" style="width: 60px; overflow: visible; display: none;" />
+        <ui:Label picking-mode="Ignore" binding-path="label" name="label" readonly="true" focusable="false" multiline="true" style="width: 150px; flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

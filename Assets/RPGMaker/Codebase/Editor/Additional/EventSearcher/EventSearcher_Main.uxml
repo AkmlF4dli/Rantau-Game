@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Label text="[W1645]ツールの説明" display-tooltip-when-elided="true" enable-rich-text="false" usage-hints="None" name="InformationLabel" style="border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 4px; border-bottom-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-left-color: rgb(128, 128, 128); border-right-color: rgb(128, 128, 128); border-top-color: rgb(128, 128, 128); border-bottom-color: rgb(128, 128, 128); -unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/default.ttf?fileID=12800000&amp;guid=176cd6244eaa8494e82fc9666369db8c&amp;type=3#default&apos;);" />
+    <ui:VisualElement name="SearchSettingArea" style="transform-origin: center; height: auto; flex-basis: auto; align-items: flex-start; justify-content: flex-start; flex-direction: column; overflow: visible; width: auto; flex-shrink: 0;">
+        <ui:RadioButton label="[W0605]スイッチ" name="RadioButton_SwitchSearch" value="true" style="-unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/default.ttf?fileID=12800000&amp;guid=176cd6244eaa8494e82fc9666369db8c&amp;type=3#default&apos;); flex-direction: row; flex-shrink: 0; height: auto; width: auto; overflow: visible;">
+            <ui:TextField value="filler text" focusable="false" readonly="true" binding-path="mSelectedSwitchDisplayName" style="width: 200px;" />
+            <ui:Button text="[W0080]選択" display-tooltip-when-elided="false" enable-rich-text="false" />
+        </ui:RadioButton>
+        <ui:RadioButton label="[W2603]変数" name="RadioButton_VariableSearch" style="overflow: visible;">
+            <ui:TextField focusable="false" readonly="true" binding-path="mSelectedValueDisplayName" style="width: 200px;" />
+            <ui:Button text="[W0080]選択" display-tooltip-when-elided="true" enable-rich-text="false" name="Button" />
+        </ui:RadioButton>
+        <ui:RadioButton label="[W0981]イベント種類" name="RadioButton_EventTypeSearch" style="flex-shrink: 0; overflow: visible;">
+            <ui:TextField readonly="true" binding-path="mSelectedEventTypeDisplayName" focusable="false" style="width: 200px;" />
+            <ui:Button text="[W0080]選択" display-tooltip-when-elided="true" enable-rich-text="false" />
+        </ui:RadioButton>
+        <ui:RadioButton label="[W2575]検索する文字列" name="RedioButton_TextSearch" style="justify-content: flex-start; align-items: center; flex-direction: row; flex-shrink: 0; overflow: visible;">
+            <ui:TextField name="TextField_SearchText" binding-path="mSelectedWords" style="width: 271px; justify-content: flex-start; height: 17px; flex-shrink: 1;" />
+        </ui:RadioButton>
+    </ui:VisualElement>
+    <ui:VisualElement name="ButtonArea" style="flex-direction: row; overflow: visible; visibility: visible; bottom: auto; height: auto; position: relative; flex-shrink: 0; transform-origin: center; align-items: flex-start; top: auto;">
+        <ui:Button text="[W1464]検索" display-tooltip-when-elided="true" name="Button_Search" />
+        <ui:Button text="検索の履歴" display-tooltip-when-elided="true" name="Button_SearchHistory" style="display: none; visibility: hidden;" />
+    </ui:VisualElement>
+    <ui:VisualElement style="height: 10px;" />
+    <ui:ListView focusable="false" fixed-item-height="22" binding-path="mResultList" virtualization-method="DynamicHeight" reorderable="false" show-border="true" selection-type="None" show-foldout-header="false" show-bound-collection-size="false" style="height: 1%; flex-grow: 1; flex-shrink: 0; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(123, 123, 123); border-right-color: rgb(123, 123, 123); border-top-color: rgb(123, 123, 123); border-bottom-color: rgb(123, 123, 123); border-top-left-radius: 4px; border-bottom-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px;" />
+</ui:UXML>

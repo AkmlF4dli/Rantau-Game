@@ -1,0 +1,58 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:GroupBox text="WORD_0014" style="height: 70px; width: 184px; background-color: rgb(100, 100, 100); color: rgb(255, 255, 255); text-shadow: 1px 1px 1px rgb(0, 0, 0); top: 0; left: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:Button text="WORD_0918" name="CharacterIsEvent" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_0919" name="MoveSetEventPoint" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+    <ui:GroupBox text="WORD_1070" style="height: 280px; width: 184px; background-color: rgb(100, 100, 100); position: absolute; top: 372px; left: 200px; color: rgb(255, 255, 255); text-shadow: 1px 1px 1px rgb(0, 0, 0); padding-top: 5px; padding-bottom: 0; padding-left: 0; margin-top: 6px; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+        <ui:Button text="WORD_1071" name="ChangeBattleBGM" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1072" name="ChangeVictoryME" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1073" name="ChangeLoseME" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1074" name="ChangeVehicleBGM" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1075" name="ChangeProhibitedSave" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1077" name="ChangeProhibitedMenu" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1078" name="ChangeProhibitedEncounter" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1079" name="ChangeProhibitedSort" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1080" name="ChangeWindowColor" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1084" name="ChangeActorPicture" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1085" name="ChangeVehiclePicture" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+    <ui:GroupBox text="WORD_6100" style="height: 170px; width: 184px; background-color: rgb(100, 100, 100); position: absolute; top: 196px; left: 200px; color: rgb(255, 255, 255); -unity-text-outline-width: 0; text-shadow: 1px 1px 1px rgb(0, 0, 0); -unity-text-outline-color: rgb(0, 0, 0); margin-top: 5px; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 6px; padding-bottom: 0; padding-left: 0;">
+        <ui:Button text="WORD_6001" name="EffectGlitch" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px; -unity-text-align: middle-center; white-space: nowrap; text-overflow: clip;" />
+        <ui:Button text="WORD_6002" name="EffectBlur" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_6003" name="EffectBloom" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_6004" name="EffectFill" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_6005" name="EffectPixelate" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_6006" name="EffectRemove" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+    <ui:GroupBox text="WORD_0632" style="height: 190px; width: 184px; background-color: rgb(100, 100, 100); position: absolute; top: 0; left: 200px; color: rgb(255, 255, 255); text-shadow: 1px 1px 0 rgb(0, 0, 0); padding-top: 5px; padding-bottom: 0; padding-left: 0; margin-top: 6px; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+        <ui:Button text="WORD_1103" name="battle_enemy_status" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px; -unity-text-align: middle-center; white-space: nowrap; text-overflow: clip;" />
+        <ui:Button text="WORD_1106" name="battle_enemy_state" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1107" name="battle_enemy_appearance" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1108" name="battle_enemy_transform" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1110" name="battle_enemy_animation" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1111" name="battle_enemy_battleForced" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1115" name="battle_enemy_stop" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+    <ui:GroupBox text="WORD_1517" style="height: 229px; width: 184px; background-color: rgb(100, 100, 100); position: absolute; top: 240px; left: 0; color: rgb(255, 255, 255); text-shadow: 1px 1px 0 rgb(0, 0, 0); margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:Button text="WORD_1052" name="BattleProcess" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px; -unity-text-align: middle-center; white-space: nowrap; text-overflow: clip;" />
+        <ui:Button text="WORD_1059" name="ShopProcess" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1064" name="NameInput" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1066" name="OpenMenu" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1067" name="OpenSave" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1068" name="GameOver" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1069" name="GOTOTitle" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_5026" name="CallUnityScene" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1653" name="RespawnPoint" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+    <ui:GroupBox text="WORD_0027" style="height: 160px; width: 184px; background-color: rgb(100, 100, 100); position: absolute; top: 75px; left: 0; color: rgb(255, 255, 255); -unity-text-outline-width: 0; text-shadow: 1px 1px 1px rgb(0, 0, 0); -unity-text-outline-color: rgb(0, 0, 0); margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:Button text="WORD_1173" name="MapScroll" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px; -unity-text-align: middle-center; white-space: nowrap; text-overflow: clip;" />
+        <ui:Button text="WORD_1175" name="MapNameChange" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1179" name="BattleBackGroundChange" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1181" name="DistantViewChange" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_1184" name="MapGetPoint" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+        <ui:Button text="WORD_6106" name="MinimapChange" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+    <ui:GroupBox text="WORD_2509" name="GroupBox" style="height: 53px; width: 184px; background-color: rgb(100, 100, 100); color: rgb(255, 255, 255); text-shadow: 1px 1px 1px rgb(0, 0, 0); top: 475px; left: 0; position: absolute; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 0; padding-left: 0;">
+        <ui:Button text="WORD_2510" name="AddonCommands" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 20px;" />
+    </ui:GroupBox>
+</ui:UXML>

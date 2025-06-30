@@ -1,0 +1,20 @@
+/* 非選択状態のスタイル */
+.button {
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: gray;
+}
+
+/* フォーカスされていて選択状態のスタイル */
+.button.selected.focused {
+    border-color: cyan;
+}
+
+/* フォーカスされてなくて選択状態のスタイル */
+.button.selected {
+    border-color: lightgray;
+}
+
+.padded-element {
+    padding: 1px;
+}
