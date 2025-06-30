@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 820.8
   m_ShowMode: 4
-  m_Title: Map
+  m_Title: Menu
   m_RootView: {fileID: 11}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -42,7 +42,7 @@ MonoBehaviour:
     x: 0
     y: 104.8
     width: 299.2
-    height: 142.4
+    height: 279.2
   m_MinSize: {x: 101, y: 126}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 299.2
     height: 104.8
-  m_MinSize: {x: 371, y: 126}
-  m_MaxSize: {x: 601, y: 126}
+  m_MinSize: {x: 1201, y: 63}
+  m_MaxSize: {x: 1201, y: 63}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 150}
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 279
+  controlID: 2156
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 1
-  controlID: 295
+  controlID: 2148
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 297
+  controlID: 2150
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: MapEditWindow
+  m_Name: SceneWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -199,16 +199,16 @@ MonoBehaviour:
     y: 0
     width: 880.8
     height: 800.8
-  m_MinSize: {x: 52, y: 76}
+  m_MinSize: {x: 102, y: 126}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 20}
   - {fileID: 13}
-  m_Selected: 3
-  m_LastSelected: 3
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,9 +225,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 312.8
+    y: 384
     width: 299.2
-    height: 488
+    height: 416.8
   m_MinSize: {x: 101, y: 126}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 16}
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 296
+  controlID: 2149
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -321,19 +321,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b07cd17c3dc40b1b1b724b6c43f822e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 50, y: 50}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: RPG Scene Map
     m_Image: {fileID: 0}
     m_Tooltip: 
-    m_TextWithWhitespace: "RPG Scene Map\u200B"
+    m_TextWithWhitespace: "RPGMaker.Codebase.Editor.MapEditor.Window.MapEdit.MapEditWindow\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 299.2
-    y: 43.2
-    width: 878.8
-    height: 774.8
+    x: 1
+    y: 19
+    width: 1071
+    height: 940
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -367,9 +367,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 148
+    y: 128.8
     width: 298.2
-    height: 116.399994
+    height: 253.2
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -402,8 +402,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "RPG Setting\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1180
-    y: 43.2
+    x: 881.8
+    y: 24
     width: 355.00006
     height: 774.8
   m_SerializedDataModeController:
@@ -439,9 +439,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 356
+    y: 408
     width: 298.2
-    height: 462
+    height: 390.8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -465,17 +465,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dccdb8a40004799b2a1c312c229c684, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 370, y: 100}
-  m_MaxSize: {x: 600, y: 100}
+  m_MinSize: {x: 1200, y: 37}
+  m_MaxSize: {x: 1200, y: 37}
   m_TitleContent:
     m_Text: Menu
     m_Image: {fileID: 0}
     m_Tooltip: 
-    m_TextWithWhitespace: "Menu\u200B"
+    m_TextWithWhitespace: "RPGMaker.Codebase.Editor.Common.Window.MenuWindow\u200B"
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 43.2
+    y: 24
     width: 298.2
     height: 78.8
   m_SerializedDataModeController:
@@ -510,8 +510,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "RPG Scene Preview\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 299.2
-    y: 43.2
+    x: 1
+    y: 24
     width: 878.8
     height: 774.8
   m_SerializedDataModeController:
